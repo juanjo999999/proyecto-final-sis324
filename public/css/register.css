@@ -1,0 +1,162 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  h2 {
+    text-align: center;
+    margin: 20px 0;
+    color: #0056b3;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar .logo h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #0056b3;
+  }
+  
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+  }
+  
+  .nav-links li a:hover {
+    color: #0056b3;
+  }
+  
+  .navbar-right a {
+    text-decoration: none;
+    margin-left: 15px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .navbar-right .login-btn {
+    background-color: transparent;
+    color: #0056b3;
+    border: 1px solid #0056b3;
+  }
+  
+  .navbar-right .login-btn:hover {
+    background-color: #0056b3;
+    color: #fff;
+  }
+  
+  .navbar-right .register-btn {
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+  }
+  
+  .navbar-right .register-btn:hover {
+    background-color: #004494;
+  }
+  
+  /* Formulario de registro */
+  .register-section {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .register-form .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .register-form .form-group label {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .register-form .form-group input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+  }
+  
+  .register-form .form-group input:focus {
+    outline: none;
+    border-color: #0056b3;
+  }
+  
+  .register-btn {
+    background-color: #0056b3;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .register-btn:hover {
+    background-color: #004494;
+  }
+  
+  .register-btn:active {
+    background-color: #003366;
+  }
+  
+  .redirect {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .redirect a {
+    text-decoration: none;
+    color: #0056b3;
+    font-weight: bold;
+  }
+  
+  .redirect a:hover {
+    color: #004494;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #f4f4f9;
+    color: #555;
+    font-size: 0.9rem;
+    margin-top: 20px;
+  }
+  

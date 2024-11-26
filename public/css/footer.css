@@ -1,0 +1,45 @@
+/* Reset global del navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main {
+    flex: 1; /* Ocupa todo el espacio disponible si no hay contenido */
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1.5rem 1rem;
+    background-color: #1c1c1e;
+    color: #ffffff;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 12px 12px 0 0;
+    margin-top: auto; /* Asegura que el footer esté al final si no hay contenido */
+  }
+  
+  footer p {
+    font-size: 1rem;
+    color: #e0e0e0;
+    margin: 0.5rem 0;
+  }
+  
+  footer a {
+    color: #00bcd4;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  footer a:hover {
+    color: #0288d1;
+  }
+  
